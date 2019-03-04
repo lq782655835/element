@@ -309,7 +309,7 @@
       if (this.mode === 'horizontal') {
         new Menubar(this.$el); // eslint-disable-line
       }
-      this.$watch('items', this.updateActiveIndex);
+      // this.$watch('items', this.updateActiveIndex);
     }
   };
 </script>
